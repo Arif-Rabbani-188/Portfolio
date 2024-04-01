@@ -1,0 +1,129 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    /* margin-right: 40px; */
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#F2EFE5;
+    color: #333;
+}
+img{
+    border-radius: 2rem;
+    height: 20vmin;
+    width: 20vmin;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+#con1{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+#pj{
+    margin: 5vmin;
+    margin-left: 0;
+}
+.box{
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    background-color:gray;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 2vmin;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+
+
+/* Project styles */
+
+h6{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    height: 30px;
+    width: 300px;
+    top: 80%
+
+}
+.pro{
+    text-align: center;
+}
+
+#age{
+    background-image: url("Age_calculator.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+#tasbih{
+    background-image: url("tasbih.png");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 20px;
+        margin-bottom: 2vmin;
+    }
+    p{
+        text-align: justify;
+    }
+}
+    p{
+    text-align: justify;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#ft{
+    text-align: center;
+}
